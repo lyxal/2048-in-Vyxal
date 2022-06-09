@@ -3,7 +3,6 @@
 # Written 9th June 2022
 # Based on a video that implemented 2048 using redstone in minecraft lol
 
-⟨0|0|0|0⟩ 4ẋ →board
 `UP` →_UP
 `DOWN` →_DOWN
 `LEFT` →_LEFT
