@@ -135,9 +135,18 @@
 
 14 0 ẋ 2 J 2 J Þ℅ 4ẇ →board
 
-`Welcome to 2048. Your goal is to get the highest number by merging tiles.`,
+@clear| #|
+  `__import__('os').system(__import__('platform').system() == 'Windows' and 'cls' or 'clear')` E
+;
+
+1 →first
 
 {
+    @clear;
+    ←first [
+    	`Welcome to 2048. Your goal is to get the highest number by merging tiles.`,
+        0 →first
+    ]
     `\n`, ←board ƛvS7↳;⁋ , `\n`,
     `` →direction { `udlr`f ←direction c¬ | # While the user doesn't input a valid direction
       `Enter move (u - up, d - down, l - left, r - right): `₴
