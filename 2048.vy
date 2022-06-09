@@ -2,6 +2,7 @@
 # Author: lyxal
 # Written 9th June 2022
 # Based on a video that implemented 2048 using redstone in minecraft lol
+# https://www.youtube.com/watch?v=gYAc7yl2KY8
 
 `UP` →_UP
 `DOWN` →_DOWN
